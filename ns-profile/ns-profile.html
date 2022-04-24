@@ -1,0 +1,263 @@
+<link href="https://toyhou.se/css/main.css" rel="stylesheet">
+<link href="https://toyhou.se/css/site_bootstrap.css" rel="stylesheet">
+<link href="https://toyhou.se/css/wysiwyg.css" rel="stylesheet">
+
+<style>
+	.content {
+		background-color: #ebebeb;
+		font-size: 16px;
+		color: #000000;
+	}
+
+	.top-bar{
+		margin-top: 2em;
+	}
+	.top-bar-left{
+		display: flex;
+		align-items: center;
+	}
+	.top-bar-left-avatar{
+		width: 3.75em;
+		height: 3.75em;
+		background-repeat: no-repeat;
+		background-size: contain;
+		border-radius: 50%;
+		border: 0.2em white solid;
+		margin-left: 1.8em;
+		box-shadow: #cccccc 0em 0em 0.5em;
+	}
+	.top-bar-left-name{
+		font-family: "Verdana";
+		font-size: 1.4em;
+		margin-left: 0.6em;
+		text-decoration: none;
+		color: #000000;
+	}
+
+	.top-bar-right{
+		display: flex;
+		align-items: center;
+		justify-content: right;
+	}
+	.top-bar-right-text{
+		font-family: "Verdana";
+		font-size: 1.4em;
+		margin-right: 1.8em;
+	}
+
+	.game-box-row {
+		display: flex;
+		flex-wrap: nowrap;
+		overflow: auto;
+		height: 20.5em;
+		align-items: flex-end;
+		
+		margin-bottom: 1.5em;
+		padding-top: 0.625em;
+		padding-left: 0.625em;
+		padding-bottom: 0.625em;
+	}
+
+	.game-box {
+		flex-shrink: 0;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-color: #ffffff;
+		box-shadow: #dddddd 0em 0em 0.375em;
+		width: 16em;
+		height: 16em;
+		margin-left: 0.4em;
+		margin-right: 0.4em;
+		border-radius: 0%;
+	}
+	.game-box-all{
+		border-radius: 50%;
+		width: 10em;
+		height: 10em;
+		margin-left: 3em;
+		margin-right: 5em;
+		margin-bottom: 2.8em;
+		
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.game-box-all-icon{
+		color: #6c7676;
+		font-size: 4.5em;
+	}
+
+
+	.circle-button-row {
+		display: flex;
+		justify-content: center;
+		flex-wrap: nowrap;
+		overflow: auto;
+		height: 7.5em;
+		width: 100%;
+	}
+	.circle-button {
+		width: 5.375em;
+		height: 5.375em;
+		background-color: #ffffff;
+		border-radius: 50%;
+		box-shadow: #dddddd 0em 0em 0.375em;
+		margin-left: 0.625em;
+		margin-right: 0.625em;
+
+		flex-shrink: 0;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		text-decoration: none;
+	}
+	.circle-button-icon{
+		font-size: 2.5em;
+		color: #6c7676;
+	}
+	.circle-button-red {
+		box-shadow: none;
+		background-color: #e70012;
+	}
+
+	.delimiter{
+		height: 1px;
+		background-color: black;
+		margin-left: 1.5em;
+		margin-right: 1.5em;
+	}
+
+	.status-bar{
+		margin-top: 0.85em;
+		margin-bottom: 0.85em;
+		margin-left: 2em;
+		margin-right: 2em;
+	}
+	.status-bar-left{
+		font-family: "Verdana";
+		font-size: 1.25em;
+	}
+	.status-bar-right{
+		display: flex;
+		align-items: center;
+		justify-content: right;
+	}
+	.status-bar-right-text{
+		margin-left: 0.25em;
+		font-family: "Verdana";
+		font-size: 1.25em;
+	}
+	.status-bar-right-icon{
+		font-size: 0.65em;
+	}
+</style>
+
+<div class="container content">
+	<div class="row row-no-gutters"></div>
+
+	<div class="row row-no-gutters top-bar">
+		<div class="col-sm-5 top-bar-left">
+			<!-- Change your avatar and name here -->
+			<a class="top-bar-left-avatar" href="https://toyhou.se/TML233"
+				style="background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/users/TML233?1);">
+			</a>
+			<a class="top-bar-left-name" href="https://toyhou.se/TML233">TML233</a>
+		</div>
+		<div class="col-lg-7 top-bar-right">
+			<div class="top-bar-right-text">
+				<!-- Change your text here -->
+				Squish paws. Cuddle fluffy ones.
+			</div>
+		</div>
+	</div>
+
+	<!-- Game boxes -->
+	<div class="row row-no-gutters ml-lg-5">
+		<div class="col-sm-12 game-box-row">
+			<!-- Change game boxes here -->
+			<a title="TML" href="https://toyhou.se/12616872.tml" class="btn game-box" data-toggle="tooltip" data-placement="top"
+				style="background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/characters/12616872);">
+			</a>
+			<a title="0w0" href="https://toyhou.se/12613777.0w0-" class="btn game-box" data-toggle="tooltip" data-placement="top"
+				style="background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/characters/12613777);">
+			</a>
+			<a title="Cosmig" href="https://toyhou.se/8623031.-cosmig-" class="btn game-box" data-toggle="tooltip" data-placement="top"
+				style="background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/characters/8623031);">
+			</a>
+			<a title="Fancybat" href="https://toyhou.se/15795339.fancybat" class="btn game-box" data-toggle="tooltip" data-placement="top"
+				style="background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/characters/15795339);">
+			</a>
+			<a title="Cloudy Sky" href="https://toyhou.se/15625844.cloudy-sky" class="btn game-box" data-toggle="tooltip" data-placement="top"
+				style="background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/characters/15625844);">
+			</a>
+			<a title="Lacie" href="https://toyhou.se/13630582.lacie" class="btn game-box" data-toggle="tooltip" data-placement="top"
+				style="background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/characters/13630582);">
+			</a>
+
+			<a title="All Characters" href="https://toyhou.se/TML233/characters" class="btn game-box game-box-all" data-toggle="tooltip" data-placement="top">
+				<i class="fa-solid fa-border-all game-box-all-icon"></i>
+			</a>
+		</div>
+	</div>
+
+	<!-- Circle buttons -->
+	<div class="row row-no-gutters">
+		<div class="col-sm-12 circle-button-row">
+			<!-- Change circle buttons here -->
+			<a href="#" class="btn circle-button circle-button-red"
+				data-toggle="tooltip" data-placement="top" title="Being Fluffy">
+				<i class="fa-solid fa-paw circle-button-icon" style="color: #ffffff;"></i>
+			</a>
+			<a href="https://twitter.com/fluffy_tml" target="_blank" class="btn btn-default circle-button"
+				data-toggle="tooltip" data-placement="top" title="Twitter">
+				<i class="fa-brands fa-twitter circle-button-icon" style="color: #1d9bf0"></i>
+			</a>
+			<a href="https://space.bilibili.com/12923816" target="_blank" class="btn btn-default circle-button"
+				data-toggle="tooltip" data-placement="top" title="Bilibili">
+				<i class="fa-brands fa-bilibili circle-button-icon" style="color: #00aae2;"></i>
+			</a>
+			<a href="https://github.com/TML233" target="_blank" class="btn btn-default circle-button"
+				data-toggle="tooltip" data-placement="top" title="GitHub">
+				<i class="fa-brands fa-github circle-button-icon"></i>
+			</a>
+			<a href="https://tml233.com" target="_blank" class="btn btn-default circle-button"
+				data-toggle="tooltip" data-placement="top" title="Personal Website">
+				<i class="fa-solid fa-arrow-up-right-from-square circle-button-icon"></i>
+			</a>
+
+			<!-- Please, don't remove my credit! -->
+			<a href="https://toyhou.se/15808038.-f2u-nintendo-switch-menu" target="_blank" class="btn btn-default circle-button"
+				data-toggle="tooltip" data-placement="top" title="Code by TML233">
+				<i class="fa fa-code circle-button-icon"></i>
+			</a>
+		</div>
+	</div>
+
+	<div class="row row-no-gutters">
+		<div class="col-sm-12">
+			<div class="delimiter"></div>
+		</div>
+	</div>
+
+	<!-- Status bar -->
+	<div class="row row-no-gutters status-bar">
+		<div class="col-sm-6 status-bar-left">
+			<div class="status-bar-left-text">
+				<!-- Change your status bar text here -->
+				2021~2022 TML233
+			</div>
+		</div>
+		<div class="col-sm-6 status-bar-right">
+			<!-- A button icon -->
+			<span class="fa-stack status-bar-right-icon">
+				<i class="fa-solid fa-circle fa-stack-1x" style="font-size: 2em;"></i>
+				<i class="fa-solid fa-a fa-inverse fa-stack-1x" style="font-size: 1.2em;"></i>
+			</span>
+			<span class="status-bar-right-text">Confirm</span>
+		</div>
+	</div>
+
+	<div class="row row-no-gutters"></div>
+</div>
